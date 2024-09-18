@@ -1,0 +1,38 @@
+.banner{
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: black;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+    
+}
+/* .banner:hover {
+    animation-play-state: paused;
+    
+} */
+/* white-space: nowrap; mantener el texto en una linea */
+.banner .hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.banner ul {
+    display: inline-block;
+    animation: scroll 25s linear infinite;
+    
+}
+
+.banner li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}

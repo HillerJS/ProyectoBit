@@ -1,0 +1,17 @@
+.banner{
+    animation-direction: left;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 15px;
+}
+p{
+    color: whitesmoke;
+    font-size: 10px;
+}
